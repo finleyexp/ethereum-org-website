@@ -162,6 +162,6 @@ eth.getBalance('0x85d918c2B7F172d033D190152AEc58709Fb6D048')
 
 ## Stopping and restarting your node {#stopping-and-restarting-your-node}
 
-You can stop your node at any time. If you want to restart the node, Geth will take a few seconds or minutes to re-synchronize (downloading the blocks and/or block headers from where it left off when the node last stopped running). If any of the above instructions aren’t working, the first thing you should do is try restarting your node.
+You can stop your node at any time by using CTRL+C. If you want to restart the node, Geth will take a few seconds or minutes to re-synchronize (downloading the blocks and/or block headers from where it left off when the node last stopped running). If any of the above instructions aren’t working, the first thing you should do is try restarting your node.
 
 If you are interested in running an Ethereum full node, it is generally best to do so from a dedicated machine with good network connectivity, rather than from a personal computer. Here is a guide to running a node with AWS (this is a little outdated and the referenced AMIs are no longer recent or available, so you might have to do some Googling): [How to run a node on AWS](https://medium.com/mercuryprotocol/how-to-run-an-ethereum-node-on-aws-a8774ed3acf6)
